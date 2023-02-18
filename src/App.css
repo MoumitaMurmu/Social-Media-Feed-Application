@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter';
+  background-color:  #1E1E1E;;
+}
+.search{
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 1300px;
+  height: 55px;
+  border: none;
+  background-color: #1E1E1E;
+}
+#search-input{
+  background-color: #1E1E1E;
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 1300px;
+  height: 55px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 1000px;
+  padding: 20px;
+  color: #FFFFFF;
+}
+.card{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 30px;
+background-color: #1E1E1E;
+color: rgba(255, 255, 255, 0.5);
+width: 500px;
+height: 520px;
+}
+.card-body{
+  width:280px;
+height: 150px;
+border: none;
+}
+.image{
+  border-radius: 20px 20px 0px 0px;
+}
+#img{
+  border-radius: 20px 20px 0px 0px;
+}
+#btn{
+  background: #1E1E1E;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 50px;
+color: rgba(255, 255, 255, 0.5);
+}
+#btn:hover{
+background-color: red;
+transition: 0.7s;
+color: #FFFFFF;
+}
+#btn:focus {
+  outline-color: transparent;
+  outline-style: 1px solid;
+  box-shadow: 0 0 0 4px #5a01a7;
+}
+.btn:active {
+  background-color: #ffbf00;
+}
+#load-btn{
+  background: #FFFFFF;
+  border-radius: 100px;
+  width: 300px;
+  height: 45px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  position: relative;
+  left: 500px;
+  font-weight: 600;
+}
+#load-btn:hover{
+  background-color: green;
+  transition: 0.7s;
+}
+
